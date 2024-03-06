@@ -1,13 +1,13 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="fill-height">
-      <MainDrawer />
-      <ItemsDrawer />
-    </v-responsive>
-  </v-container>
+  <v-responsive>
+    <MainDrawer />
+    <ItemsDrawer />
+  </v-responsive>
+  <Screen />
 </template>
 
 <script setup lang="ts">
   import MainDrawer from './MainDrawer.vue'
   import ItemsDrawer from './ItemsDrawer.vue'
+  import Screen from './Screen.vue';
 </script>

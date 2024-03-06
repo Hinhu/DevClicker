@@ -9,8 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     copy: typeof import('./src/components/Layout copy.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Incrementer: typeof import('./src/components/Incrementer.vue')['default']
     ItemsDrawer: typeof import('./src/components/ItemsDrawer.vue')['default']
     Layout: typeof import('./src/components/Layout.vue')['default']
     MainDrawer: typeof import('./src/components/MainDrawer.vue')['default']
+    Screen: typeof import('./src/components/Screen.vue')['default']
   }
 }
